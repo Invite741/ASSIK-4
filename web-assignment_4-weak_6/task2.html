@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <h2>some</h2>
+        <nav class="navbar">
+            <a href="index.html">home</a>
+            <a href="task0.html">task0</a>
+            <a href="task1.html">task1</a>
+            <a href="task2.html">task2</a>
+            <a href="task3.html">task3</a>
+            <a href="task4.html">task4</a>
+        </nav>
+    </header>
+
+    <form class="answer-form">
+        <h2>Answer form</h2>
+
+        <div class="row">
+            <div class="col-md-6">
+                <label for="name" class="form-label">name</label>
+                <input type="text" id="name" class="form-control" placeholder="ИМЯ НАПИШИ ПОЗЯZЯ" required minlength="2" maxlength="50">
+                <div class="form-text">если нету то прилумай имя</div>
+            </div>
+
+            <div class="col-md-6">
+            <label for="email" class="form-label">email</label>
+            <input id="email" class="form-control" type="email" placeholder="email ПОЗЯЗЯ" required>
+            <div class="form-text">если нету то создай гений</div>
+            </div>
+        </div>
+        <label for="message" class="form-label">message</label>
+        <textarea id="message" class="form-control" placeholder="message ПОЗЯЗЯ" required></textarea>
+        <div class="form-text">хз ну напиши чтото</div>
+        <button type="submit" class="btn btn-primary">submit</button>
+    </form>
+</html>
